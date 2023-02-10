@@ -8,3 +8,4 @@ class SsuserViewSet(ModelViewSet):
     queryset = SsUser.objects.all()
     serializer_class = SsUserSerializer
 
+
