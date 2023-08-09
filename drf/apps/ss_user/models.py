@@ -40,3 +40,4 @@ class SsUser(models.Model):
     class Meta:
         db_table = 'ss_user'
         verbose_name  = '用户'
+        app_label = 'ss_user'

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "ss_user",
+    "demo",
 ]
 
 MIDDLEWARE = [
@@ -80,10 +81,10 @@ WSGI_APPLICATION = 'drf.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dataone',
+        'NAME': 'drf_back',
         'USER': 'root',
-        'PASSWORD':'PwcZ7QtIZ4m1E8V0',
-        'HOST': '192.168.91.136',
+        'PASSWORD':'mysql',
+        'HOST': '127.0.0.1',
         'port': 3306
     }
 }

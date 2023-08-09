@@ -4,3 +4,4 @@
 @Author  : wang
 @File    : __init__.py.py
 '''
+from .ss_user import *

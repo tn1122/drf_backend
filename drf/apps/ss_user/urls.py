@@ -11,7 +11,7 @@ app_name = 'ss_user'
 
 
 router = DefaultRouter()
-router.register('ss_user', SsuserViewSet,basename='ss_user')
+router.register('ss_user', SsuserViewSet, basename='ss_user')
 
 urlpatterns = [
 ] + router.urls

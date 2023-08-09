@@ -27,6 +27,7 @@ for app in settings.INSTALLED_APPS:
         try:
             app_urls = import_module(f'{app_name}.urls')
         except Exception as e:
+            print(e)
             if getattr(e, 'name', None) != f'{app}.urls':
                 pass
             continue

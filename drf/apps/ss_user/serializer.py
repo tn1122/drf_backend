@@ -14,5 +14,4 @@ class SsUserSerializer(serializers.ModelSerializer):
 
         fields = '__all__'
 
-
     # 验证
