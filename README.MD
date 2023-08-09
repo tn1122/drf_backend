@@ -1,24 +1,29 @@
 
 ### 路由
-http://127.0.0.1:8000/api/v1/ss_user/ss_user/2/
 
-### 目录说明
+http://127.0.0.1:8081/api/v1/demo/demo/1/
+http://127.0.0.1:8081/api/v1/demo/demo
+http://127.0.0.1:8081/api/v1/ss_user/ss_user/2/
+
+### 部分目录说明
 
 - drf_backend
   - apps 应用
-    - demo 
-    - 
-  - com
-  - drf
+    - demo 视图关系
+    - ss_suer用户
+  - com 说明视图.png
 
 
 
 
 
+### 一些记录
 
 Django ORM（对象关系映射）提供了丰富的查询和操作数据库的方法。以下是一些常用的 Django ORM 方法：
 
-查询集方法（QuerySet Methods）： 查询集是 Django ORM 中的核心概念，用于查询数据库并返回结果集。以下是一些常用的查询集方法：
+查询集方法（QuerySet Methods）： 查询集是 Django ORM 中的核心概念，用于查询数据库并返回结果集。
+
+以下是一些常用的查询集方法：
 
 filter(**kwargs)：根据条件过滤结果集。
 exclude(**kwargs)：排除满足条件的结果。
@@ -54,4 +59,6 @@ filter(date_field__day=day)：根据日期过滤结果。
 
 filter(name__contains='keyword')：筛选包含关键词的结果。
 filter(name__startswith='prefix')：筛选以指定前缀开头的结果。
-以上只是一些常用的 Django ORM 方法，实际上还有更多功能丰富的方法可供使用。您可以查阅 Django 官方文档以获取更详细的信息：https://docs.djangoproject.com/en/3.2/topics/db/queries/
+以上只是一些常用的 Django ORM 方法，实际上还有更多功能丰富的方法可供使用。
+
+您可以查阅 Django 官方文档以获取更详细的信息：https://docs.djangoproject.com/en/3.2/topics/db/queries/
