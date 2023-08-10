@@ -197,3 +197,19 @@ from django.shortcuts import render
 
 
 # ------------------------------------------
+# action属性
+
+
+# from rest_framework.viewsets import ModelViewSet
+#
+# class DemoView(ModelViewSet):
+# 可以通过action对象属性来获取当前请求视图集时的action动作是哪个。
+#
+#
+#     def get_serializer_class(self):
+#
+#         if self.action == 'create':
+#             return  YouSerilizers
+#
+#         else:
+#             return YouSerilizers
