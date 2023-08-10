@@ -67,6 +67,6 @@ filter(name__startswith='prefix')：筛选以指定前缀开头的结果。
 
 ### 视图继承关系说明
 
-![视图说明](https://gitee.com/brave_wang/drf_backend/blob/master/drf/com/django%E8%A7%86%E5%9B%BE%E5%85%B3%E7%B3%BB%E5%9B%BE.png)
+![视图说明](https://gitee.com/brave_wang/drf_backend/blob/master/drf/com/django视图关系图.png)
 
 ![继承关系](https://gitee.com/brave_wang/drf_backend/blob/master/drf/com/drf.png)
