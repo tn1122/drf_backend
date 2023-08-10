@@ -62,3 +62,11 @@ filter(name__startswith='prefix')：筛选以指定前缀开头的结果。
 以上只是一些常用的 Django ORM 方法，实际上还有更多功能丰富的方法可供使用。
 
 您可以查阅 Django 官方文档以获取更详细的信息：https://docs.djangoproject.com/en/3.2/topics/db/queries/
+
+
+
+### 视图继承关系说明
+
+![视图说明](https://gitee.com/brave_wang/drf_backend/blob/master/drf/com/django%E8%A7%86%E5%9B%BE%E5%85%B3%E7%B3%BB%E5%9B%BE.png)
+
+![继承关系](https://gitee.com/brave_wang/drf_backend/blob/master/drf/com/drf.png)
